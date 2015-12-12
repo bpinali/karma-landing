@@ -55,7 +55,9 @@ div {
 
 .top-navigation .links {
     float: right;
-    margin-top: 1.7rem;
+    margin-top: 1.5rem;
+    color: #838994;
+    font-size: 1.04rem;
 }
 
 .top-navigation .links li {
@@ -66,6 +68,10 @@ div {
 .top-navigation .links > .active {
     color: #4c5058;
     font-weight: 500;
+}
+
+.top-navigation .links li:hover {
+    color: #4c5058;
 }
 
 .logo {
