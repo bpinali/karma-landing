@@ -9,23 +9,45 @@
     font-size: 100%;
 }
 
+ul,
+menu,
+dir {
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
 
 /* General styles
     (the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules bellow (h2, h3, h4, h5, h6, p, a, ul, li))
 */
 
+body {}
+
 body {
-    color: red;
+    background-color: LightGray;
 }
 
-p {
-    font-size: 15px;
+div {
+    border: 1px solid Chocolate;
 }
 
 
 /* Header styles
     (all the styles inside the < header > or < nav > tags)
 */
+
+.top-navigation {
+    background-color: #fff;
+}
+
+.top-navigation .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+}
 
 
 /* Content styles
