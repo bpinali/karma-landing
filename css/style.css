@@ -41,12 +41,35 @@ div {
 
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%
 }
 
 .top-navigation .content {
-    width: 970px;
-    height: 70px;
+    width: 60%;
+    height: 4.375rem;
     margin: 0 auto;
+    padding: 0 0.938rem;
+    min-width: 37.5rem;
+}
+
+.top-navigation .links {
+    float: right;
+    margin-top: 1.7rem;
+}
+
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.logo {
+    margin-top: 1rem;
 }
 
 
