@@ -42,6 +42,11 @@ div {
     border: 1px solid Chocolate;
 }
 
+.content {
+    margin: 0 auto;
+    width: 970px;
+}
+
 
 /* Header styles
     (all the styles inside the < header > or < nav > tags)
@@ -54,9 +59,7 @@ div {
 }
 
 .top-navigation .content {
-    width: 60%;
     height: 4.375rem;
-    margin: 0 auto;
     padding: 0 0.938rem;
     min-width: 37.5rem;
 }
