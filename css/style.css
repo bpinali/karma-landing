@@ -75,13 +75,14 @@ div {
     margin-left: 25px;
 }
 
-.top-navigation .links > .active {
+.top-navigation .links .active {
     color: #4c5058;
     font-weight: 500;
 }
 
 .top-navigation .links li:hover {
-    color: #4c5058;
+    color: #333333;
+    cursor: pointer;
 }
 
 .logo {
