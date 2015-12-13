@@ -24,7 +24,15 @@ dir {
     (the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules bellow (h2, h3, h4, h5, h6, p, a, ul, li))
 */
 
-body {}
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 
 body {
     background-color: LightGray;
@@ -55,14 +63,16 @@ div {
 
 .top-navigation .links {
     float: right;
+    font-family: 'Roboto', sans-serif;
     margin-top: 1.5rem;
     color: #838994;
-    font-size: 1.04rem;
+    font-size: 1.0rem;
+    -webkit-font-smoothing: antialiased;
 }
 
 .top-navigation .links li {
     display: inline-block;
-    margin-left: 1rem;
+    margin-left: 25px;
 }
 
 .top-navigation .links > .active {
@@ -82,6 +92,14 @@ div {
 /* Content styles
     (all the styles inside the < sections > or < aside > tags)
 */
+
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+}
 
 
 /* Footer styles
