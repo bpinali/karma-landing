@@ -221,9 +221,6 @@ button {
 /*ipad lanscape / small laptop*/
 
 @media only screen and (max-width: 1024px) {
-    body {
-        color: blue;
-    }
     .content {
         width: 80%;
     }
@@ -233,9 +230,6 @@ button {
 /*ipad potrait*/
 
 @media only screen and (max-width: 768px) {
-    body {
-        color: red;
-    }
     .top-navigation .links {
         width: 93%;
     }
@@ -248,9 +242,6 @@ button {
 /*iPhone landscape*/
 
 @media only screen and (max-width: 480px) {
-    body {
-        color: green;
-    }
     .top-navigation .links li {
         font-size: 12px;
     }
@@ -273,8 +264,4 @@ button {
 }
 
 /*iPhone portrait*/
-@media only screen and (max-width: 320px) {
-    body {
-        color: purple;
-    }
-}
+@media only screen and (max-width: 320px) {}
