@@ -216,3 +216,65 @@ button {
 /* Responsive styles
     (the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
 */
+
+
+/*ipad lanscape / small laptop*/
+
+@media only screen and (max-width: 1024px) {
+    body {
+        color: blue;
+    }
+    .content {
+        width: 80%;
+    }
+}
+
+
+/*ipad potrait*/
+
+@media only screen and (max-width: 768px) {
+    body {
+        color: red;
+    }
+    .top-navigation .links {
+        width: 93%;
+    }
+    .top-navigation .links li {
+        margin-left: 10px;
+    }
+}
+
+
+/*iPhone landscape*/
+
+@media only screen and (max-width: 480px) {
+    body {
+        color: green;
+    }
+    .top-navigation .links li {
+        font-size: 12px;
+    }
+    .introduction h1 {
+        font-size: 2.125rem;
+    }
+    .introduction h3 {
+        font-size: 1.1rem;
+    }
+    .cases h2 {
+        font-size: 2rem;
+    }
+    .cases .devices > li {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}
+
+
+}
+
+/*iPhone portrait*/
+@media only screen and (max-width: 320px) {
+    body {
+        color: purple;
+    }
+}
