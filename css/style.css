@@ -35,7 +35,8 @@ html {}
 
 body {
     background-color: LightGray;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arvo', serif;
+    color: #383838;
 }
 
 div {}
@@ -59,7 +60,8 @@ ul {
     background-color: #fff;
     position: fixed;
     top: 0;
-    width: 100%
+    width: 100%;
+    border-top: 8px solid #00A47D;
 }
 
 .top-navigation .content {
@@ -82,12 +84,11 @@ ul {
 }
 
 .top-navigation .links .active {
-    color: #4c5058;
-    font-weight: 500;
+    color: #282828;
 }
 
 .top-navigation .links li:hover {
-    color: #333333;
+    color: #00A47D;
     cursor: pointer;
 }
 
@@ -113,27 +114,34 @@ ul {
     color: white;
     text-align: center;
     font-weight: 300;
+    text-shadow: 2px 2px 2px black;
 }
 
 .introduction h1 {
     padding-top: 17.5rem;
-    font-size: 3.125rem;
+    font-size: 3.325rem;
+    color: #fff;
+    font-weight: 800;
 }
 
 .introduction h3 {
-    margin-top: 1.25rem;
     font-size: 1.563rem;
+    font-style: italic;
+    margin-bottom: 3rem;
+    color: #f15a29;
 }
 
 button {
     width: 9.688rem;
-    background-color: #f15a29;
+    background-color: #00A47D;
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
     padding: 1rem 1.5rem;
-    color: white;
+    color: #FFF;
     font-size: 1.125rem;
+    box-shadow: inset 0px 0px 6px #404040;
+    text-shadow: 1px 1px 3px #282828;
 }
 
 .introduction .buttons {
@@ -150,7 +158,7 @@ button {
 
 .cases .content {
     margin-top: 7.875rem;
-    color: #1d1e21;
+    color: #383838;
     text-align: center;
 }
 
@@ -163,6 +171,12 @@ button {
 .cases .devices > li {
     width: 33%;
     float: left;
+}
+
+.caption h3 {
+    font-weight: 300;
+    font-style: italic;
+    margin-top: .8rem;
 }
 
 
@@ -179,7 +193,7 @@ button {
 
 .social hr {
     border: 0;
-    border-top: 1px solid #eaebec;
+    border-top: 1px solid #00A47D;
     margin: 1.313rem 0;
 }
 
@@ -189,9 +203,10 @@ button {
     height: 2.5rem;
     display: inline-block;
     margin: 1.25rem 5px;
-    border: 1px solid #eaebec;
-    padding: 0.625rem 0;
+    border: 1px solid #D8D8D8;
+    padding: 0.63rem 0;
     text-align: center;
+    box-shadow: 0px 2px 5px 2px #D8D8D8;
 }
 
 .social .twitter {
